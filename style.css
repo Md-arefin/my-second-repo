@@ -40,6 +40,7 @@
     padding: 10px 20px;
 }
 
+/* donate today */
 .donate-today {
     text-align: center;
     color: #707070;
@@ -68,13 +69,14 @@ h2 {
     padding: 60px 25px 0 25px;
 
 }
-.amount:hover{
+
+.amount:hover {
     background-color: rgba(255, 89, 89, 0.25);
     border: 2px solid #FF5959;
 
 }
 
-#tk{
+#tk {
     background-color: rgba(255, 89, 89, 0.25);
     border: 2px solid #FF5959;
 }
@@ -90,43 +92,78 @@ hr {
     margin: 20px auto;
     width: 1180px;
 }
-.donate-plan{
+
+/* donate plan */
+
+.donate-plan {
     margin: 10px 20%;
 }
-.plan-title{
+
+.plan-title {
     font-size: 50px;
     font-weight: 800;
-    text-align:center;
+    text-align: center;
     padding-bottom: 10px;
 }
 
-.plan-description{
+.plan-description {
     text-align: center;
     padding-bottom: 20px;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
     gap: 30px;
 }
-.plan-style-one{
+
+.plan-style-one {
     background-color: rgba(79, 157, 166, 0.1);
     border-radius: 10px;
     padding: 40px 30px 10px;
     width: 460px;
 }
-.plan-style-two{
-    background-color:#ff59598e ;
+
+.plan-style-two {
+    background-color: #ff59598e;
     border-radius: 10px;
     padding: 40px 30px 10px;
     width: 460px;
 }
-.plan-style-three{
+
+.plan-style-three {
     background-color: rgba(211, 212, 125, 0.664);
     border-radius: 10px;
     padding: 40px 30px 10px;
     width: 460px;
 }
-.plan-style-title{
+
+.plan-style-title {
     font-size: 25px;
     padding-bottom: 10px;
+}
+
+/* section three */
+.donation-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.one {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title-donate {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.description {
+    padding: 10px 50px;
+}
+
+.donation-container .btn-primary{
+    margin:20px auto;
+    padding: 20px;
 }
