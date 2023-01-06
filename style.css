@@ -90,3 +90,43 @@ hr {
     margin: 20px auto;
     width: 1180px;
 }
+.donate-plan{
+    margin: 10px 20%;
+}
+.plan-title{
+    font-size: 50px;
+    font-weight: 800;
+    text-align:center;
+    padding-bottom: 10px;
+}
+
+.plan-description{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.plan-container{
+    display: flex;
+    gap: 30px;
+}
+.plan-style-one{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+    padding: 40px 30px 10px;
+    width: 460px;
+}
+.plan-style-two{
+    background-color:#ff59598e ;
+    border-radius: 10px;
+    padding: 40px 30px 10px;
+    width: 460px;
+}
+.plan-style-three{
+    background-color: rgba(211, 212, 125, 0.664);
+    border-radius: 10px;
+    padding: 40px 30px 10px;
+    width: 460px;
+}
+.plan-style-title{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
