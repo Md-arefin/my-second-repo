@@ -177,6 +177,7 @@ hr {
 .my-updates {
     text-align: center;
     padding: 20px 350px;
+    margin-bottom: 50px;
 }
 
 .update-title {
@@ -211,4 +212,17 @@ hr {
     padding: 20px 50px;
     border: none;
     margin: 0;
+}
+.footer{
+    background-color: #121212;
+    padding: 100px;
+    text-align: center;
+}
+.footer-title{
+    color: #FF5959;
+    font-size: 100px;
+}
+.footer-description{
+    color: #FAFAFA;
+    font-size: 50px;
 }
